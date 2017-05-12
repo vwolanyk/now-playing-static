@@ -198,6 +198,9 @@ figure {
 
 @media screen and (min-width:768px){
 
+  main {
+    margin-left: 4em;
+}
   nav.site-nav {
       top: 0;
       width: 4em;
@@ -216,6 +219,14 @@ width: 100%;}
 
   .site-nav-list {
     margin-top: 5rem;
+}
+
+.movie-overview {
+  display:block;
+}
+
+.movie-details {
+    font-size: 1.5em;
 }
 
 
