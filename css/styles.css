@@ -15,6 +15,7 @@ html {
 
 body {
   margin: 0;
+  max-width: 1200px;
 
   /*
     We need to add some padding to the bottom of the body on mobile so that
@@ -195,7 +196,11 @@ figure {
 .about > p {
   margin: 0;
 }
-
+/*
+==========
+768px Display Response
+=============
+*/
 @media screen and (min-width:768px){
 
   main {
@@ -230,7 +235,38 @@ width: 100%;}
 }
 
 
+.site-footer{
+  clear: both;}
+
+}
+
+/*
+=======
+992px Response
+===========
+*/
+
+@media screen and (min-width:992px){
+
+.movie-poster{display: block;
+              float: left;
+              width:33.33%;}
+
+.movie:first-of-type .movie-poster{display: none;}
+
+.movie-backdrop{display: none;}
+.movie:first-of-type .movie-backdrop{display: block;}
+
+.movie-details{display: none}
+
+.movie:first-of-type .movie-details{display: block;}
 
 
+/*.movie-backdrop:first-of-type{display: block}*/
+
+body{max width:1200px;
+    margin:0 auto;
+  }
+html{background: radial-gradient(blue, silver, darkblue);}
 
 }
