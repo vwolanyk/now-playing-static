@@ -195,3 +195,31 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media screen and (min-width:768px){
+
+  nav.site-nav {
+      top: 0;
+      width: 4em;
+      background-color: lightgray;
+  }
+
+  .site-logo {
+      width: 60px;
+      left: 0px;
+      z-index: 500;
+  }
+
+  .site-nav-item{ float:none;
+    text-align: center;
+width: 100%;}
+
+  .site-nav-list {
+    margin-top: 5rem;
+}
+
+
+
+
+
+}
